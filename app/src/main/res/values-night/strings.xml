@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="trivia">Trivia</string>
+    <string name="True">True</string>
+    <string name="False">false</string>
+    <string name="count">0 out of 100</string>
+</resources>
