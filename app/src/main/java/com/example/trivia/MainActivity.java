@@ -11,6 +11,7 @@ import android.view.animation.AlphaAnimation;
 import android.view.animation.Animation;
 import android.view.animation.AnimationUtils;
 import android.widget.Button;
+
 import android.widget.ImageButton;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -102,7 +103,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
                 if (currentQuestionIndex == 0) {
-                    Toast.makeText(getApplicationContext(), "bsdk wanha kanha ja rha hai", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "You are on first question", Toast.LENGTH_SHORT).show();
                 }
 
                 if (currentQuestionIndex > 0) {
