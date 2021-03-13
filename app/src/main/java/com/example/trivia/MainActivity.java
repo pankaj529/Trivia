@@ -103,7 +103,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
 
 
                 if (currentQuestionIndex == 0) {
-                    Toast.makeText(getApplicationContext(), "You are on first question", Toast.LENGTH_SHORT).show();
+                    Toast.makeText(getApplicationContext(), "Hey You are on first question", Toast.LENGTH_SHORT).show();
                 }
 
                 if (currentQuestionIndex > 0) {
