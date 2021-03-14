@@ -60,6 +60,15 @@ public class PrefsManager {
 
 
 
+    public  void setState(int index) {
+        sharedPreferences.edit().putInt("index_state", index).apply();
+    }
+
+    public int getState() {
+        return sharedPreferences.getInt("index_state", 0);
+    }
+
+
 
 
 
